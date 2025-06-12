@@ -17,8 +17,6 @@ export const StarBackground = () => {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    
-
     const generateStars = () => {
         const numberOfStars = Math.floor(window.innerWidth * window.innerHeight / 10000);
         
