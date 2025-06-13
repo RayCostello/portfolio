@@ -24,8 +24,8 @@ export const AboutSection = () => {
                             Get in Touch 
                         </a>
                         {/* href should have link to CV */}
-                        <a href="" className="px-6 py-2 rounded-full border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
-                            Download CV 
+                        <a href="/documents/Raymond_Costello_CV_upload.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                            Preview CV
                         </a>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ export const AboutSection = () => {
                                 <Code className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="text-semi-bold text-lg"> Web Development</h4>
+                                <h4 className="font-semibold text-lg"> Web Development</h4>
                                 <p className="tezt-muted-foreground">
                                     Creating, Handling, and Testing reponsive
                                     websites and web applications with modern frameworks.
@@ -50,12 +50,26 @@ export const AboutSection = () => {
                             <div className="p-3 rounded-full bg-primary/10">
                                 <User className="h-6 w-6 text-primary" />
                             </div>
+                            <div className="text-left">
+                                <h4 className="font-semibold text-lg"> Automation</h4>
+                                <p className="tezt-muted-foreground">
+                                    Shell Scripting (bash), Python, and workflow orchestration
+                                    are some tools I use to automate repetitive tasks and improve efficiency.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover">
                     <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Briefcase className="h-6 w-6 text-primary" />
+                            </div>
+                            <div className="text-left">
+                                <h4 className="font-semibold text-lg"> DevOps</h4>
+                                <p className="tezt-muted-foreground">
+                                    I handle version control (git), CI/CD pipelines, and cloud services
+                                    to ensure smooth collaboration and deployment of projects.
+                                </p>
                             </div>
                         </div>
                     </div>
