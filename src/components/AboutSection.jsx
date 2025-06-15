@@ -1,4 +1,5 @@
 import { Code, User, Briefcase } from "lucide-react";
+
 export const AboutSection = () => {
     return ( <section id="about" className="py-24 px-4 relative">
         {" "}
@@ -37,10 +38,10 @@ export const AboutSection = () => {
                                 <Code className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> Web Development</h4>
+                                <h4 className="font-semibold text-lg"> Automation</h4>
                                 <p className="tezt-muted-foreground">
-                                    Creating, Handling, and Testing reponsive
-                                    websites and web applications with modern frameworks.
+                                Shell Scripting (bash), Python, and workflow orchestration
+                                are some tools I use to automate repetitive tasks and improve efficiency.
                                 </p>
                             </div>
                         </div>
@@ -51,10 +52,10 @@ export const AboutSection = () => {
                                 <User className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> Automation</h4>
+                                <h4 className="font-semibold text-lg"> DevOps</h4>
                                 <p className="tezt-muted-foreground">
-                                    Shell Scripting (bash), Python, and workflow orchestration
-                                    are some tools I use to automate repetitive tasks and improve efficiency.
+                                    I handle version control (git), CI/CD pipelines, and cloud services
+                                    to ensure smooth collaboration and deployment of projects.
                                 </p>
                             </div>
                         </div>
@@ -65,10 +66,10 @@ export const AboutSection = () => {
                                 <Briefcase className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> DevOps</h4>
-                                <p className="tezt-muted-foreground">
-                                    I handle version control (git), CI/CD pipelines, and cloud services
-                                    to ensure smooth collaboration and deployment of projects.
+                                <h4 className="font-semibold text-lg"> Project Management</h4>
+                                <p className="tezt-muted-foreground"> 
+                                    Led teams in engineering projects requiring good communication,
+                                    delegation, and planning. Received Global Leadership Award.
                                 </p>
                             </div>
                         </div>
